@@ -19,7 +19,7 @@ public:
 };
 
 bool isLeaveNode(Node* root){
-    if(root->left==NULL and rot->right==NULL){
+    if(root->left==NULL and root->right==NULL){
         return true;
     }
     return false;
